@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Fahendrena - Projets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../../public/assets/favicon-circle.png">
+</head>
+<body class="bg-slate-50 text-slate-600 antialiased selection:bg-blue-500 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Navigation Container -->
+    <div id="navbar-container" data-basepath="../../"></div>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-24 pb-12">
+        <section id="projects" class="py-12 md:py-20 bg-white overflow-hidden">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 flex items-center gap-4" data-aos="fade-right">
+                    <span class="w-16 h-1 bg-blue-500 inline-block rounded-full"></span> Projets Personnels
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="glass-panel rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300 flex flex-col h-full border border-slate-200" data-aos="zoom-in-up" data-aos-delay="100">
+                        <div class="h-2 bg-gradient-to-r from-cyan-400 to-blue-500 w-full"></div>
+                        <div class="p-8 flex flex-col flex-grow">
+                            <div class="flex justify-between items-start mb-6">
+                                <h3 class="text-xl font-bold text-slate-900">Location de Voitures</h3>
+                                <div class="w-10 h-10 rounded-full bg-cyan-50 flex items-center justify-center text-cyan-600">
+                                    <i class="fas fa-car text-lg"></i>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-8 flex-grow leading-relaxed">
+                                Application web de location de voitures intégrant l'envoi d'e-mails (SMTP) et le paiement en ligne via Stripe.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">Spring Boot</span>
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">SMTP</span>
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 2 -->
+                    <div class="glass-panel rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300 flex flex-col h-full border border-slate-200" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="h-2 bg-gradient-to-r from-blue-400 to-indigo-500 w-full"></div>
+                        <div class="p-8 flex flex-col flex-grow">
+                            <div class="flex justify-between items-start mb-6">
+                                <h3 class="text-xl font-bold text-slate-900">Gestion de Vente</h3>
+                                <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
+                                    <i class="fas fa-shopping-cart text-lg"></i>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-8 flex-grow leading-relaxed">
+                                Application web de gestion de vente de matériel informatique. Conception et développement de l'interface et du back-end.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">HTML/CSS</span>
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">PHP</span>
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Project 3 -->
+                    <div class="glass-panel rounded-2xl overflow-hidden group hover:-translate-y-2 transition duration-300 flex flex-col h-full border border-slate-200" data-aos="zoom-in-up" data-aos-delay="300">
+                        <div class="h-2 bg-gradient-to-r from-indigo-400 to-purple-500 w-full"></div>
+                        <div class="p-8 flex flex-col flex-grow">
+                            <div class="flex justify-between items-start mb-6">
+                                <h3 class="text-xl font-bold text-slate-900">Math Trainer</h3>
+                                <div class="w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600">
+                                    <i class="fas fa-square-root-alt text-lg"></i>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 text-sm mb-8 flex-grow leading-relaxed">
+                                Application mobile d'entraînement aux mathématiques avec exercices progressifs et corrections automatisées.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">Flutter</span>
+                                <span class="px-3 py-1 bg-slate-100 text-xs font-semibold rounded-full text-slate-700 border border-slate-200">Laravel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Container -->
+    <div id="footer-container" data-basepath="../../"></div>
+
+    <!-- AOS JS for Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://vercel.live/speed-insights/script.js"></script>
+    <script src="../js/layout.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

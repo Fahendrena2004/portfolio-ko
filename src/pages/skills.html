@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Fahendrena - Compétences</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../../public/assets/favicon-circle.png">
+</head>
+<body class="bg-slate-50 text-slate-600 antialiased selection:bg-blue-500 selection:text-white flex flex-col min-h-screen">
+
+    <!-- Navigation Container -->
+    <div id="navbar-container" data-basepath="../../"></div>
+
+    <!-- Main Content -->
+    <main class="flex-grow pt-24 pb-12">
+        <section id="skills" class="py-12 md:py-20 overflow-hidden">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-12 flex items-center gap-4" data-aos="fade-right">
+                    <span class="w-16 h-1 bg-blue-500 inline-block rounded-full"></span> Compétences Techniques
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Dev Web -->
+                    <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-t-cyan-500" data-aos="fade-up" data-aos-delay="100">
+                        <div class="w-14 h-14 bg-cyan-50 rounded-xl flex items-center justify-center text-cyan-600 mb-6 text-2xl shadow-sm">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Développement Web</h3>
+                        <p class="text-slate-600 leading-relaxed">HTML5, CSS3, Bootstrap, JavaScript, PHP</p>
+                    </div>
+                    
+                    <!-- Frameworks -->
+                    <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-t-blue-500" data-aos="fade-up" data-aos-delay="200">
+                        <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 mb-6 text-2xl shadow-sm">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Frameworks & CMS</h3>
+                        <p class="text-slate-600 leading-relaxed">Laravel, Spring Boot, Next.js, Node.js, WordPress</p>
+                    </div>
+    
+                    <!-- Languages -->
+                    <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-t-indigo-500" data-aos="fade-up" data-aos-delay="300">
+                        <div class="w-14 h-14 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 mb-6 text-2xl shadow-sm">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Langages</h3>
+                        <p class="text-slate-600 leading-relaxed">Java, Python, C#</p>
+                    </div>
+    
+                    <!-- Databases -->
+                    <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-t-emerald-500" data-aos="fade-up" data-aos-delay="400">
+                        <div class="w-14 h-14 bg-emerald-50 rounded-xl flex items-center justify-center text-emerald-600 mb-6 text-2xl shadow-sm">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Bases de données</h3>
+                        <p class="text-slate-600 leading-relaxed">MySQL, PostgreSQL, SQLite, MongoDB</p>
+                    </div>
+    
+                    <!-- DevOps -->
+                    <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-t-orange-500" data-aos="fade-up" data-aos-delay="500">
+                        <div class="w-14 h-14 bg-orange-50 rounded-xl flex items-center justify-center text-orange-600 mb-6 text-2xl shadow-sm">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Déploiement & DevOps</h3>
+                        <p class="text-slate-600 leading-relaxed">Git, GitHub, GitLab, Docker, Render, DirectAdmin, CI/CD</p>
+                    </div>
+    
+                    <!-- Mobile & UI/UX -->
+                    <div class="glass-panel p-8 rounded-2xl hover:-translate-y-2 transition duration-300 border-t-4 border-t-pink-500" data-aos="fade-up" data-aos-delay="600">
+                        <div class="w-14 h-14 bg-pink-50 rounded-xl flex items-center justify-center text-pink-600 mb-6 text-2xl shadow-sm">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-4">Mobile, UI/UX & API</h3>
+                        <p class="text-slate-600 leading-relaxed">Flutter, Figma, REST API, JWT, Swagger/openAPI, Keycloak</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Container -->
+    <div id="footer-container" data-basepath="../../"></div>
+
+    <!-- AOS JS for Animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://vercel.live/speed-insights/script.js"></script>
+    <script src="../js/layout.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>
