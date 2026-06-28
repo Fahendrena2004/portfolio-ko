@@ -4,6 +4,7 @@ node_modules/
 # Build outputs
 build/
 dist/
+public/
 
 # NPM logs
 npm-debug.log*
