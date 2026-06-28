@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx serve .",
-    "build": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./build/dist/output.css && node build.js",
+    "build": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./dist/output.css && node build.js",
     "build:css": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./dist/output.css",
     "watch:css": "npx @tailwindcss/cli -i ./src/css/tailwind.css -o ./dist/output.css --watch"
   },
