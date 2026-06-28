@@ -32,8 +32,8 @@ if (!fs.existsSync(buildDir)) {
 // Copy index.html
 copySync(path.join(__dirname, 'index.html'), path.join(buildDir, 'index.html'));
 
-// Copy public directory
-copySync(path.join(__dirname, 'public'), path.join(buildDir, 'public'));
+// Copy static directory
+copySync(path.join(__dirname, 'static'), path.join(buildDir, 'static'));
 
 // Copy src directory
 copySync(path.join(__dirname, 'src'), path.join(buildDir, 'src'));
